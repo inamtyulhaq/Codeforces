@@ -1,3 +1,6 @@
+/*if any two variables are 1, then they solve the problem and the count of problems increases.*/
+
+
 #include <iostream>
 using namespace std;
 
