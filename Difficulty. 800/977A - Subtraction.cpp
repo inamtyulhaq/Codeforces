@@ -1,3 +1,5 @@
+/*if last digit is 0, remove it, else subtract by 1*/
+
 #include <iostream>
 using namespace std;
 
