@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    int i, n, num, evenCount = 0, oddCount = 0, eI, oI;
+    cin >> n;
+    for(i = 1; i <= n; i++)
+    {
+        cin >> num;
+        if(num % 2 == 0)
+        {
+            evenCount++;
+            eI = i;
+        }
+        else if (num % 2 != 0)
+        {
+            oddCount++;
+            oI = i;
+        }
+    }
+    if(evenCount > oddCount)
+    {
+        cout << oI << endl;
+    }
+    else if(oddCount > evenCount)
+    {
+        cout << eI << endl;
+    }
+    return 0;
+}
