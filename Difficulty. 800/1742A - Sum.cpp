@@ -1,5 +1,5 @@
 // Question
-// 
+// https://codeforces.com/contest/1742/problem/A
 
 // Explanation:
 // input three integers
