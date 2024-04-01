@@ -1,6 +1,6 @@
 // https://codeforces.com/contest/1950/problem/A
 
-//
+// a simple if else based condition according to question
 
 #include <iostream>
 using namespace std;
