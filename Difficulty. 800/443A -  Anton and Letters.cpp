@@ -14,28 +14,35 @@ int main()
     string s;
     getline(cin, s);
     int count = 0;
-    for (int i = 1; i < s.size(); i += 3)
+    if (s.size() > 2)
     {
-        bool cameAgain = false;
-        if (s[i] >= 97 && s[i] <= 122)
+        for (int i = 1; i < s.size(); i += 3)
         {
-            for (int j = 1; j < i; j += 3)
+            bool cameAgain = false;
+            if (s[i] >= 97 && s[i] <= 122)
             {
-                if (s[i] == s[j])
+                for (int j = 1; j < i; j += 3)
                 {
-                    cameAgain = true;
-                    break;
+                    if (s[i] == s[j])
+                    {
+                        cameAgain = true;
+                        break;
+                    }
                 }
             }
+            if (cameAgain)
+            {
+                count += 0;
+            }
+            else
+            {
+                count++;
+            }
         }
-        if (cameAgain)
-        {
-            count += 0;
-        }
-        else
-        {
-            count++;
-        }
+    }
+    else
+    {
+        count = 0;
     }
     cout << count << endl;
     return 0;
