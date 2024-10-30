@@ -1,6 +1,11 @@
 // https://codeforces.com/contest/263/problem/A
 
-//
+// take the matrix in a single 1D array
+// firstly, simple make brute force calculations for ranges on a paper
+// then implement
+// do remember to handle edge cases that may arise if you submit solution
+// (your code will fail on some edge cases)
+// cout
 
 #include <iostream>
 using namespace std;

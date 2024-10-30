@@ -1,3 +1,10 @@
+// https://codeforces.com/problemset/problem/25/A
+
+// take numbers in an array
+// iterate through the array
+// find count of even and odd numbers
+// cout the count which is greater than the other
+
 #include <iostream>
 using namespace std;
  
