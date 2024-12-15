@@ -14,6 +14,7 @@ int main()
     {
         string a;
         cin >> a;
+        reverse(a.begin(), a.end());
         for (int i = 0; i < a.size(); i++)
         {
             if (a[i] == 'p')
