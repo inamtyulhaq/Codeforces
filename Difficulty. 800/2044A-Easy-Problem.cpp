@@ -1,6 +1,6 @@
 // https://codeforces.com/contest/2044/problem/A
 
-//
+// simple cout n-1
 
 #include <bits/stdc++.h>
 

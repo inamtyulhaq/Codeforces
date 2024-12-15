@@ -1,6 +1,6 @@
-//
+// https://codeforces.com/contest/2044/problem/B
 
-//
+// simple reverse and change p to q and q to p
 
 #include <bits/stdc++.h>
 
